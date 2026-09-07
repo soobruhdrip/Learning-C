@@ -41,6 +41,60 @@ int main()
     printf("The Value of e is %.8lf \n",e);
     return 0;
 }
+//
+//Char Variable 
+//
+#include <stdio.h>
+int main()
+{
+    char a = 'A';
+    printf("Your Grade is %c \n",a);
+    char b = '!';
+    printf("Hello my name is Subh %c \n",b);
+    char c = '$';
+    printf("American Dollar looks like this : %c",c);
+    return 0;
+}
+//
+// Char (String) Variables
+//
+#include <stdio.h>
+int main()
+{
+    char ask[]="My Name is Subh";
+    char food[]="Burger";
 
+    printf("What is your name? %s \n",ask);
+    printf("My Favourite Food is %s \n", food);
+    return 0;
+}
+//
+// Boolean Variable
+//
+#include <stdio.h>
+#include <stdbool.h> 
 
-// PAUSED AT 25:21
+/* 1 or True = True & 0 or False = False */
+
+int main()
+{
+    bool online = true;
+    bool student = 0;
+
+    if(online){
+        printf("You are online \n");
+    }
+    else{
+        printf("You are offline \n");
+    }
+
+    if(student){
+        printf("You are a student\n");
+    }
+    else{
+        printf("You are NOT a student\n");
+    }
+  return 0;
+}
+
+    
